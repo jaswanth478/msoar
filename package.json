@@ -1,0 +1,14 @@
+{
+    "name": "infina-recorder",
+    "version": "1.0.0",
+    "description": "System audio recorder",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager . Infina --platform=darwin --arch=x64 --overwrite --app-bundle-id=com.infina.recorder --executable-name=Infina"
+    },
+    "devDependencies": {
+        "electron": "^27.1.0",
+        "electron-packager": "^17.1.1"
+    }
+}

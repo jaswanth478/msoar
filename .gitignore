@@ -1,0 +1,7 @@
+node_modules
+infina-darwin-x64
+recordings
+dist
+output.wav
+package-lock.json
+.DS_Store
